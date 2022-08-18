@@ -99,15 +99,20 @@ def main():
         print('1. Login as Student')
         print('2. Login as Teacher')
         print('3. Login as Admin')
+        print('4. End Build')
 
         userOption= input(str('Option: '))
-        if userOption=='1':
+        userOption='4'
+        if userOption=='1':\
             print('student login')
         elif userOption=='2':
             print('teacher login')
         elif userOption=='3':
             #print('admin login')
             authenticateAdmin()
+        elif userOption=='4':
+            print('Build success!')
+            break
         else:
             print('Invalid option')    
 
