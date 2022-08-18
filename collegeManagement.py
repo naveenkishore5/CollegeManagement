@@ -101,7 +101,7 @@ def main():
         print('3. Login as Admin')
         print('4. End Build')
 
-        userOption= input(str('Option: '))
+       # userOption= input(str('Option: '))
         userOption='4'
         if userOption=='1':\
             print('student login')
