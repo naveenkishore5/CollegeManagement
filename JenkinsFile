@@ -6,7 +6,7 @@ pipeline {
         sh 'python3 --version'
       }
     }
-    stage('hello') {
+    stage('college management') {
       steps {
         sh 'python3 collegeManagement.py'
       }
